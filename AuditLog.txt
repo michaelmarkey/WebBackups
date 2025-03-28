@@ -1,0 +1,268 @@
+----
+time->Wed Mar 26 19:48:13 2025
+type=PROCTITLE msg=audit(1743018493.164:674): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743018493.164:674): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743018493.164:674): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743018493.164:674): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743018493.164:674): arch=c000003e syscall=257 success=yes exit=116 a0=ffffff9c a1=2dec023c1320 a2=80241 a3=1b6 items=2 ppid=1829 pid=9616 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key="intranet_changes"
+----
+time->Wed Mar 26 19:49:14 2025
+type=PROCTITLE msg=audit(1743018554.902:675): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743018554.902:675): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743018554.902:675): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743018554.902:675): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743018554.902:675): arch=c000003e syscall=257 success=yes exit=116 a0=ffffff9c a1=2dec023a7300 a2=80241 a3=1b6 items=2 ppid=1829 pid=9616 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key="intranet_changes"
+----
+time->Wed Mar 26 22:08:06 2025
+type=PROCTITLE msg=audit(1743026886.813:1055): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743026886.813:1055): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743026886.813:1055): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743026886.813:1055): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743026886.813:1055): arch=c000003e syscall=257 success=yes exit=158 a0=ffffff9c a1=2dec002d7960 a2=80241 a3=1b6 items=2 ppid=1829 pid=9616 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key="intranet_changes"
+----
+time->Wed Mar 26 22:08:06 2025
+type=PROCTITLE msg=audit(1743026886.870:1056): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743026886.870:1056): item=0 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743026886.870:1056): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743026886.870:1056): arch=c000003e syscall=257 success=yes exit=158 a0=ffffff9c a1=2dec025cc1c0 a2=80000 a3=0 items=1 ppid=1829 pid=9616 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key=(null)
+----
+time->Wed Mar 26 22:08:52 2025
+type=PROCTITLE msg=audit(1743026932.566:1070): proctitle="bash"
+type=PATH msg=audit(1743026932.566:1070): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743026932.566:1070): cwd="/WebBackups"
+type=SYSCALL msg=audit(1743026932.566:1070): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=59ed8ee670f0 a2=90800 a3=0 items=1 ppid=3863 pid=17273 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/usr/bin/bash" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:25:15 2025
+type=PROCTITLE msg=audit(1743031515.619:1343): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743031515.619:1343): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743031515.619:1343): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743031515.619:1343): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743031515.619:1343): arch=c000003e syscall=257 success=yes exit=119 a0=ffffff9c a1=2dec026e71b0 a2=80241 a3=1b6 items=2 ppid=1829 pid=9616 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key="intranet_changes"
+----
+time->Wed Mar 26 23:25:15 2025
+type=PROCTITLE msg=audit(1743031515.675:1344): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743031515.675:1344): item=0 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743031515.675:1344): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743031515.675:1344): arch=c000003e syscall=257 success=yes exit=119 a0=ffffff9c a1=2dec01f93170 a2=80000 a3=0 items=1 ppid=1829 pid=9616 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key=(null)
+----
+time->Wed Mar 26 23:31:27 2025
+type=PROCTITLE msg=audit(1743031887.886:1364): proctitle="bash"
+type=PATH msg=audit(1743031887.886:1364): item=1 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743031887.886:1364): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743031887.886:1364): cwd="/var/www/html"
+type=SYSCALL msg=audit(1743031887.886:1364): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=569a12a47f80 a2=441 a3=1b6 items=2 ppid=3856 pid=17102 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="bash" exe="/usr/bin/bash" subj=unconfined key="intranet_changes"
+----
+time->Wed Mar 26 23:32:23 2025
+type=PROCTITLE msg=audit(1743031943.553:1372): proctitle=636174002F7661722F7777772F68746D6C2F496E7472616E65742F66696C65312E68746D6C
+type=PATH msg=audit(1743031943.553:1372): item=0 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743031943.553:1372): cwd="/var/www/html/Live"
+type=SYSCALL msg=audit(1743031943.553:1372): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffe412d922d a2=0 a3=0 items=1 ppid=17102 pid=19754 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="cat" exe="/usr/bin/cat" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:32:52 2025
+type=PROCTITLE msg=audit(1743031972.867:1373): proctitle=6C73002D2D636F6C6F723D6175746F002D6C002F7661722F7777772F68746D6C2F496E7472616E65742F66696C65312E68746D6C
+type=PATH msg=audit(1743031972.867:1373): item=0 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743031972.867:1373): cwd="/var/www/html/Live"
+type=SYSCALL msg=audit(1743031972.867:1373): arch=c000003e syscall=192 success=no exit=-61 a0=7ffe66b7822f a1=71ff7dc00197 a2=5ed75a608a90 a3=ff items=1 ppid=17102 pid=19762 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="ls" exe="/usr/bin/ls" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:32:52 2025
+type=PROCTITLE msg=audit(1743031972.867:1374): proctitle=6C73002D2D636F6C6F723D6175746F002D6C002F7661722F7777772F68746D6C2F496E7472616E65742F66696C65312E68746D6C
+type=PATH msg=audit(1743031972.867:1374): item=0 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743031972.867:1374): cwd="/var/www/html/Live"
+type=SYSCALL msg=audit(1743031972.867:1374): arch=c000003e syscall=194 success=yes exit=0 a0=7ffe66b7822f a1=7ffe66b77190 a2=98 a3=0 items=1 ppid=17102 pid=19762 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="ls" exe="/usr/bin/ls" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:35:26 2025
+type=PROCTITLE msg=audit(1743032126.950:1385): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032126.950:1385): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032126.950:1385): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032126.950:1385): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ffe6e44822d a2=90800 a3=0 items=1 ppid=19855 pid=19860 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:35:26 2025
+type=PROCTITLE msg=audit(1743032126.950:1386): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032126.950:1386): item=0 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032126.950:1386): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032126.950:1386): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=6484bfdd7350 a2=20000 a3=0 items=1 ppid=19855 pid=19860 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:35:26 2025
+type=PROCTITLE msg=audit(1743032126.952:1387): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032126.952:1387): item=0 name="/var/www/html/Intranet/test.txt" inode=8393583 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032126.952:1387): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032126.952:1387): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=6484bfdd7350 a2=20000 a3=0 items=1 ppid=19855 pid=19860 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:35:26 2025
+type=PROCTITLE msg=audit(1743032126.952:1388): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032126.952:1388): item=0 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032126.952:1388): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032126.952:1388): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=6484bfdd7350 a2=20000 a3=0 items=1 ppid=19855 pid=19860 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:38:37 2025
+type=PROCTITLE msg=audit(1743032317.054:1394): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032317.054:1394): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032317.054:1394): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032317.054:1394): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ffc916b7703 a2=90800 a3=0 items=1 ppid=19930 pid=19931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:38:37 2025
+type=PROCTITLE msg=audit(1743032317.054:1395): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032317.054:1395): item=0 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032317.054:1395): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032317.054:1395): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=57e6cddfd350 a2=20000 a3=0 items=1 ppid=19930 pid=19931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:38:37 2025
+type=PROCTITLE msg=audit(1743032317.054:1396): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032317.054:1396): item=0 name="/var/www/html/Intranet/test.txt" inode=8393583 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032317.054:1396): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032317.054:1396): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=57e6cddfd350 a2=20000 a3=0 items=1 ppid=19930 pid=19931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:38:37 2025
+type=PROCTITLE msg=audit(1743032317.054:1397): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032317.054:1397): item=0 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032317.054:1397): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032317.054:1397): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=57e6cddfd350 a2=20000 a3=0 items=1 ppid=19930 pid=19931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:39:48 2025
+type=PROCTITLE msg=audit(1743032388.945:1406): proctitle=2F62696E2F62617368002E2F76315363726970745F4341325F41534F4E
+type=PATH msg=audit(1743032388.945:1406): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032388.945:1406): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032388.945:1406): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=572475021fa0 a2=90800 a3=0 items=1 ppid=3863 pid=19957 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="v1Script_CA2_AS" exe="/usr/bin/bash" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:39:48 2025
+type=PROCTITLE msg=audit(1743032388.980:1411): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F66696C65312E68746D6C002F7661722F7777772F68746D6C2F496E7472616E65742F696E6465782E68746D6C002F7661722F7777772F68746D6C2F496E7472616E65742F746573742E747874002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032388.980:1411): item=0 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032388.980:1411): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032388.980:1411): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ffeb13ce66b a2=20000 a3=0 items=1 ppid=19962 pid=19963 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:39:48 2025
+type=PROCTITLE msg=audit(1743032388.980:1412): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F66696C65312E68746D6C002F7661722F7777772F68746D6C2F496E7472616E65742F696E6465782E68746D6C002F7661722F7777772F68746D6C2F496E7472616E65742F746573742E747874002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032388.980:1412): item=0 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032388.980:1412): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032388.980:1412): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ffeb13ce68d a2=20000 a3=0 items=1 ppid=19962 pid=19963 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Wed Mar 26 23:39:48 2025
+type=PROCTITLE msg=audit(1743032388.981:1413): proctitle=6370002D72002D75002F7661722F7777772F68746D6C2F496E7472616E65742F66696C65312E68746D6C002F7661722F7777772F68746D6C2F496E7472616E65742F696E6465782E68746D6C002F7661722F7777772F68746D6C2F496E7472616E65742F746573742E747874002F7661722F7777772F68746D6C2F4C697665
+type=PATH msg=audit(1743032388.981:1413): item=0 name="/var/www/html/Intranet/test.txt" inode=8393583 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743032388.981:1413): cwd="/Backup_Script_CA2_ASON"
+type=SYSCALL msg=audit(1743032388.981:1413): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ffeb13ce6af a2=20000 a3=0 items=1 ppid=19962 pid=19963 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="cp" exe="/usr/bin/cp" subj=unconfined key=(null)
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.779:610): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.779:610): item=1 name="/var/www/html/Intranet/assets" inode=8393611 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.779:610): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.779:610): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.779:610): arch=c000003e syscall=83 success=yes exit=0 a0=7cd270033530 a1=1ff a2=7cd2ac9f66d8 a3=aaaaaaaaaaaaaaab items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.780:611): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.780:611): item=1 name="/var/www/html/Intranet/assets/img" inode=8393764 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.780:611): item=0 name="/var/www/html/Intranet/assets/" inode=8393611 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.780:611): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.780:611): arch=c000003e syscall=83 success=yes exit=0 a0=7cd27002aeb0 a1=1ff a2=7cd2ac9f6598 a3=aaaaaaaaaaaaaaab items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.781:612): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.781:612): item=1 name="/var/www/html/Intranet/assets/img/favicon.ico" inode=8393779 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.781:612): item=0 name="/var/www/html/Intranet/assets/img/" inode=8393764 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.781:612): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.781:612): arch=c000003e syscall=257 success=yes exit=37 a0=ffffff9c a1=7cd270027a80 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.781:613): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.781:613): item=1 name="/var/www/html/Intranet/assets/img/profile.jpg" inode=8393780 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.781:613): item=0 name="/var/www/html/Intranet/assets/img/" inode=8393764 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.781:613): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.781:613): arch=c000003e syscall=257 success=yes exit=37 a0=ffffff9c a1=7cd27001a550 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.783:614): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.783:614): item=1 name="/var/www/html/Intranet/css" inode=8393781 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.783:614): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.783:614): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.783:614): arch=c000003e syscall=83 success=yes exit=0 a0=7cd27001a000 a1=1ff a2=7cd2ac9f66d8 a3=aaaaaaaaaaaaaaab items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.784:615): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.784:615): item=1 name="/var/www/html/Intranet/css/styles.css" inode=8393782 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.784:615): item=0 name="/var/www/html/Intranet/css/" inode=8393781 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.784:615): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.784:615): arch=c000003e syscall=257 success=yes exit=35 a0=ffffff9c a1=7cd270018490 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.786:616): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.786:616): item=1 name="/var/www/html/Intranet/js" inode=8393785 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.786:616): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.786:616): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.786:616): arch=c000003e syscall=83 success=yes exit=0 a0=7cd27002a2e0 a1=1ff a2=7cd2ac9f66d8 a3=aaaaaaaaaaaaaaab items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.787:617): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.787:617): item=1 name="/var/www/html/Intranet/js/scripts.js" inode=8393786 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.787:617): item=0 name="/var/www/html/Intranet/js/" inode=8393785 dev=08:08 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.787:617): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.787:617): arch=c000003e syscall=257 success=yes exit=35 a0=ffffff9c a1=7cd270007790 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:22 2025
+type=PROCTITLE msg=audit(1743098482.788:618): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098482.788:618): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098482.788:618): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098482.788:618): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098482.788:618): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=7cd2700079f0 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:25 2025
+type=PROCTITLE msg=audit(1743098485.144:619): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098485.144:619): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.144:619): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098485.144:619): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098485.144:619): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=7cd2700079f0 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:25 2025
+type=PROCTITLE msg=audit(1743098485.144:620): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098485.144:620): item=1 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.144:620): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098485.144:620): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098485.144:620): arch=c000003e syscall=257 success=yes exit=34 a0=ffffff9c a1=7cd2700079f0 a2=a0041 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:25 2025
+type=PROCTITLE msg=audit(1743098485.145:621): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098485.145:621): item=1 name="/var/www/html/Intranet/.goutputstream-5GV532" inode=8393788 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.145:621): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098485.145:621): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098485.145:621): arch=c000003e syscall=257 success=yes exit=35 a0=ffffff9c a1=7cd270008be0 a2=800c1 a3=1b4 items=2 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:01:25 2025
+type=PROCTITLE msg=audit(1743098485.203:622): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098485.203:622): item=4 name="/var/www/html/Intranet/index.html" inode=8393788 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.203:622): item=3 name="/var/www/html/Intranet/index.html" inode=8393582 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.203:622): item=2 name="/var/www/html/Intranet/.goutputstream-5GV532" inode=8393788 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.203:622): item=1 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098485.203:622): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098485.203:622): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098485.203:622): arch=c000003e syscall=82 success=yes exit=0 a0=7cd270008be0 a1=7cd27001a500 a2=0 a3=0 items=5 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:04:17 2025
+type=PROCTITLE msg=audit(1743098657.439:623): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098657.439:623): item=3 name="/home/michael/.local/share/Trash/files/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098657.439:623): item=2 name="/var/www/html/Intranet/file1.html" inode=8393772 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098657.439:623): item=1 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098657.439:623): item=0 name="/home/michael/.local/share/Trash/files/" inode=529193 dev=08:08 mode=040700 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098657.439:623): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098657.439:623): arch=c000003e syscall=82 success=yes exit=0 a0=640de046db90 a1=7cd270015050 a2=7cd270007 a3=7cd2700072d0 items=4 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:04:21 2025
+type=PROCTITLE msg=audit(1743098661.401:624): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1743098661.401:624): item=3 name="/home/michael/.local/share/Trash/files/test.txt" inode=8393583 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098661.401:624): item=2 name="/var/www/html/Intranet/test.txt" inode=8393583 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098661.401:624): item=1 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098661.401:624): item=0 name="/home/michael/.local/share/Trash/files/" inode=529193 dev=08:08 mode=040700 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098661.401:624): cwd="/home/michael"
+type=SYSCALL msg=audit(1743098661.401:624): arch=c000003e syscall=82 success=yes exit=0 a0=640de03248f0 a1=7cd278002300 a2=7cd5b5267b98 a3=7cd278008150 items=4 ppid=2286 pid=4428 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-org.gnome." exe="/usr/bin/nautilus" subj=nautilus key="intranet_changes"
+----
+time->Thu Mar 27 18:08:29 2025
+type=PROCTITLE msg=audit(1743098909.458:645): proctitle=2F736E61702F636F64652F3138372F7573722F73686172652F636F64652F636F6465202D2D6E6F2D73616E64626F78202E
+type=PATH msg=audit(1743098909.458:645): item=1 name="/var/www/html/Intranet/index.html" inode=8393788 dev=08:08 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1743098909.458:645): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743098909.458:645): cwd="/var/www/html/Intranet"
+type=SYSCALL msg=audit(1743098909.458:645): arch=c000003e syscall=257 success=yes exit=122 a0=ffffff9c a1=cac01133a80 a2=80241 a3=1b6 items=2 ppid=2286 pid=7934 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/snap/code/187/usr/share/code/code" subj=snap.code.code key="intranet_changes"
+----
+time->Thu Mar 27 18:45:36 2025
+type=PROCTITLE msg=audit(1743101136.520:835): proctitle=636867727000696E7472616E6574002F7661722F7777772F68746D6C2F496E7472616E65742F
+type=PATH msg=audit(1743101136.520:835): item=0 name="/var/www/html/Intranet/" inode=8393584 dev=08:08 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1743101136.520:835): cwd="/var/www/html"
+type=SYSCALL msg=audit(1743101136.520:835): arch=c000003e syscall=260 success=yes exit=0 a0=ffffff9c a1=5d375e909ff0 a2=ffffffff a3=3ee items=1 ppid=17702 pid=19568 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="chgrp" exe="/usr/bin/chgrp" subj=unconfined key="intranet_changes"
